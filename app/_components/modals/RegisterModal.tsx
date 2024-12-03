@@ -95,7 +95,7 @@ const RegisterModal = () => {
 
 	return (
 		<Modal
-			actionLabel="Register"
+			actionLabel="Continue"
 			isOpen={registerModal.isOpen}
 			onClose={registerModal.onClose}
 			title="Register"
