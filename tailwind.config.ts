@@ -12,6 +12,7 @@ export default {
 				background: "var(--background)",
 				foreground: "var(--foreground)",
 				customBlack: "#222222",
+				brandColor: "#FF385C",
 			},
 		},
 	},
