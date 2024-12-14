@@ -20,10 +20,10 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<body className={font.className}>
+			<body className={`${font.className} pt-20`}>
 				<RegisterModal />
 				<Navbar />
-				{children}
+				<div>{children}</div>
 			</body>
 		</html>
 	);
